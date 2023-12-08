@@ -1,0 +1,42 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    color: white;
+    padding: 20px;
+    font-family: poppins;
+    margin: 0 auto;
+  }
+  
+  
+  h1, p {
+    text-align: center;
+  }
+  #description {
+    font-style: italic;
+    font-size: 18x;
+  }
+  #survey-form {
+    background-color: black;
+    width: 80%;
+    padding: 10px 40px;
+    margin: 20px auto;
+  }
+  div {
+    margin: 0;
+    font-size: 17px;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  input, textarea, select {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+  #name, #email, #number, select {
+    min-height: 3em; 
+  }
+  #submit {
+    background-color: green;
+    color: white;
+    min-height: 2em; 
+  }

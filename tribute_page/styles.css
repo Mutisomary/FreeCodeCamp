@@ -1,0 +1,34 @@
+#main {
+    background-color: #eeeeee;
+  }
+  #more, #title, .ending {
+    text-align: center;
+  }
+  #img-div {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  #img-caption {
+    font-size: 16px;
+  }
+  #image {
+    width: 900px;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .year {
+    font-weight: bold;
+  }
+  #tribute-info {
+    margin: 5px 100px;
+  }
+  #tribute-link {
+    color: blue;
+  }
+  .italic {
+    font-style: italic;
+  }

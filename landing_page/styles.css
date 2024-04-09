@@ -1,0 +1,123 @@
+* {
+    list-style: none;
+    text-decoration: none;
+  }
+  body {
+     background-color: #eeeeee;
+  }
+  #header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+  
+  }
+  #header-img {
+    height: 38px;
+  }
+  #nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  #nav-bar ul li {
+    margin: 0 30px;
+  }
+  #nav-bar a {
+    font-size: 18px;
+    color: #000;
+  }
+  #form {
+    margin-top: 100px;
+    text-align: center;
+  }
+  #email {
+    border: 2px solid black;
+    padding: 10px 15px;
+    margin-bottom: 12px;
+    font-size: 17px
+  }
+  #submit {
+    font-size: 17px;
+    font-weight: 800;
+    background-color: #f1c40f;
+    padding: 10px;
+    border: none;
+  }
+  
+  .icon i {
+    color: orangered;
+  }
+  .grid {
+    display: flex;
+  }
+  #features {
+    margin-top: 40px;
+  }
+  #features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+  }
+  #features .paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+  }
+  #howitworks {
+    text-align: center;
+  }
+  #pricing {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #pricing div {
+    width: 400px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+  }
+  #pricing div h3 {
+    background-color: gray;
+    padding: 10px;
+  }
+  #pricing div h3,
+  #pricing div h4,
+  #pricing div ul li {
+    text-align: center;
+  }
+  #pricing div button {
+    background-color: orange;
+    border: none;
+    margin-bottom: 10px; 
+    padding: 10px 20px;
+    font-size: 17px;
+  }
+  #footer {
+    margin-top: 30px;
+    padding: 15px;
+  background-color: gray;
+  text-align: right;
+  }
+  #footer ul li {
+    display: inline;
+  }
+  #footer ul span {
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    #nav-bar {
+      flex-direction: column;
+    }
+  }
